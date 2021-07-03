@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/all-ride-rental-ui/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/all-ride-rental-ui/static/js/main.2c6e8bd9.chunk.js",
+    "main.js.map": "/all-ride-rental-ui/static/js/main.2c6e8bd9.chunk.js.map",
+    "runtime-main.js": "/all-ride-rental-ui/static/js/runtime-main.3f00873a.js",
+    "runtime-main.js.map": "/all-ride-rental-ui/static/js/runtime-main.3f00873a.js.map",
+    "static/js/2.cbec5ec1.chunk.js": "/all-ride-rental-ui/static/js/2.cbec5ec1.chunk.js",
+    "static/js/2.cbec5ec1.chunk.js.map": "/all-ride-rental-ui/static/js/2.cbec5ec1.chunk.js.map",
+    "static/js/3.06ced3d8.chunk.js": "/all-ride-rental-ui/static/js/3.06ced3d8.chunk.js",
+    "static/js/3.06ced3d8.chunk.js.map": "/all-ride-rental-ui/static/js/3.06ced3d8.chunk.js.map",
+    "index.html": "/all-ride-rental-ui/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/all-ride-rental-ui/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.cbec5ec1.chunk.js.LICENSE.txt": "/all-ride-rental-ui/static/js/2.cbec5ec1.chunk.js.LICENSE.txt",
+    "static/media/AllRideRental.8ec79495.jpg": "/all-ride-rental-ui/static/media/AllRideRental.8ec79495.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f00873a.js",
+    "static/js/2.cbec5ec1.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.2c6e8bd9.chunk.js"
+  ]
+}
