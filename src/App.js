@@ -1,13 +1,32 @@
-import profileImage from './img/AllRideRental.jpg';
 import './App.css';
+import { BrowserRouter, Redirect, Switch, Route } from 'react-router-dom';
+
+import SiteConfigurationContext from './components/SiteConfigurationContext';
+import Dashboard from './pages/Dashboard/Dashboard';
 
 function App() {
+
+  const headerLinks={
+    items: [
+      {
+        label:'My Dashboard',
+        key:'dashboard',
+        href:'/dashboard',
+      }
+    ]
+  };
+
   return (
-    <div className="App">
-      <h1>All Ride Rental</h1>
-      <h2>Author: Rupam Das</h2>
-      <img src={profileImage} alt="displayPicture"/>
-    </div>
+    <SiteConfigurationContext.Provider value={{ headerLinks }}>
+      <BrowserRouter basename="/all-ride-rental-ui">
+        <Switch>
+          <Redirect exact from="/" to="/dashboard"/>
+            <Route 
+            path="/dashboard"
+            component={() => <Dashboard />}/>
+        </Switch>
+      </BrowserRouter>
+    </SiteConfigurationContext.Provider>
   );
 }
 
