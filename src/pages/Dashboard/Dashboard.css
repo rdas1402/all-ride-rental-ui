@@ -1,18 +1,44 @@
 .landing-page-wrapper {
-  height: 10px;
   /* The image used */
-  background-image: url(../../img/AllRideRental.jpg);
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-image: url(../../img/AllRideRental.jpg); */
+background-position:50%;
+background-repeat: no-repeat; 
+/* Full height 
+  height: 50%;
+  /* Center and scale the image nicely 
+  display: block;  
+margin-left: 450px;  
+margin-right: auto;  
+  text-align: center;
+  background-repeat: no-repeat;*/
 }
 .search-engine {
-  width: 10000px;
+  height: 420px;
+  margin-left: 380px;
+  margin-top: 300px;
+   
 }
-.searchRide {
+/*.searchRide {
   width: 10%;
+} */
+.dashboard-header {
+  height: 300px;
+  /* background-color: #0a0202; */
+}
+
+.header {
+  height: 30px;
+  background-color: yellow;
+}
+
+.why-all-ride-rental {
+color: #631c1c;
+font-size: 100px;
+
+}
+
+.searchRide {
+  height: 150px;
+  display: inline-block;
 }
 /*# sourceMappingURL=Dashboard.css.map */
